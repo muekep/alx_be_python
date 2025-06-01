@@ -1,7 +1,8 @@
-Task = input("Input task description: ")
-Priority = input("Task's Priority, (high,medim or low): ")
-Time_bound = input("Is task time bound, (yes or no): ")
-match priority:
+Task = input("Enter your task: ")
+Time_bound = input("Is it time_bound, (yes or no): ")
+Priority = input("Priority, (high/medim/low): ")
+
+match Priority:
     case "high":
         print("This is a high priority project")
     case "medium":
