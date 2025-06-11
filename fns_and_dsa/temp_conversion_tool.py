@@ -24,7 +24,7 @@ def main():
             # Continue the loop to prompt again
 
     while True:
-        unit = input("Is this temperature in Celsius (C) or Fahrenheit (F)? ").strip().upper()
+        unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
         if unit in ['C', 'F']:
             break # Exit loop if unit is valid
         else:
