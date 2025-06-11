@@ -1,4 +1,4 @@
-import datetime
+from datetme import datetime
 def display_current_datetime():
   current_datetime = datetime.datetime.now()
   current_date = current_datetime.date()
