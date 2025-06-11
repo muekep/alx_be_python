@@ -7,7 +7,7 @@ def display_current_datetime():
 def calculate_future_date():
     while True:
         try:
-            days_str = input("Enter a number of days (e.g., 7 for one week): ")
+            days_str = input("Enter the number of days to add to the current date: ")
             days_to_add = int(days_str)
             if days_to_add < 0:
                 print("Please enter a non-negative number of days.")
