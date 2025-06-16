@@ -89,7 +89,7 @@ class Library:
             print(f"Book with title '{title}' not found in the library.")
             return False
 
-    def return_book(self, title: str) -> bool:
+    def return_book(self) -> bool:
         """
         Attempts to return a book by its title.
 
