@@ -17,9 +17,8 @@ class Library:
       if not isinstance(book, Book):
         print(f"Error: Cannot add non-Book object to the library: {type(book)}")
         return
-    self.books = append(book)
+    self._books.append(book)
     print(f"Added '{book.title}' by {book.author} to the library.")
-    
   def list_books(self):
     if not self._books:
       print("The library currently has no books.")
