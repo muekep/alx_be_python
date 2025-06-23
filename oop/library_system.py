@@ -12,7 +12,7 @@ class PrintBook(Book):
     self.page_count = page_count
 class Library:
   def __init__(self):
-  def add_book(self, book: Book):
+    def add_book(self, book: Book):
     if not isinstance(book, Book):
         print(f"Error: Cannot add non-Book object to the library: {type(book)}")
         return
