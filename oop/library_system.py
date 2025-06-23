@@ -24,7 +24,7 @@ class Library:
       return
 
       print("\n--- All Books in Library ---")
-        for i, book in enumerate(self._books, 1):
-            print(f"{i}. {book}") # Uses the __str__ method of each book object
+    for i, book in enumerate(self._books, 1):
+      print(f"{i}. {book}") # Uses the __str__ method of each book object
       print("----------------------------")
   
