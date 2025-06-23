@@ -17,7 +17,7 @@ class Library:
         print(f"Error: Cannot add non-Book object to the library: {type(book)}")
         return
     self.books = [], append()
-        print(f"Added '{book.title}' by {book.author} to the library.")
+      print(f"Added '{book.title}' by {book.author} to the library.")
   def list_books(self):
         """
         Prints details of each book currently in the library's collection.
