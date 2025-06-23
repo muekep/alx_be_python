@@ -19,12 +19,9 @@ class Library:
     self.books = [], append()
     print(f"Added '{book.title}' by {book.author} to the library.")
   def list_books(self):
-        """
-        Prints details of each book currently in the library's collection.
-        """
-      if not self._books:
-          print("The library currently has no books.")
-          return
+    if not self._books:
+      print("The library currently has no books.")
+      return
 
       print("\n--- All Books in Library ---")
         for i, book in enumerate(self._books, 1):
