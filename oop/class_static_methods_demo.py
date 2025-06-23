@@ -21,6 +21,5 @@ class Calculator:
         It has access to the class itself (via 'cls' parameter) and its attributes.
         """
         # Accessing the class attribute using 'cls'
-        print(f"Calculation Type: {cls.calculation_type}")
-        print(f"Performing class method multiplication: {a} * {b}")
+        print(f"Calculation type: {cls.calculation_type}")
         return a * b
