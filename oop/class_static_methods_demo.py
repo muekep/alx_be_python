@@ -12,7 +12,6 @@ class Calculator:
         A static method that returns the sum of two numbers.
         It does not access or modify class-specific or instance-specific data.
         """
-        print(f"Performing static addition: {a} + {b}")
         return a + b
 
     @classmethod
